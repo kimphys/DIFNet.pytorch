@@ -1,16 +1,16 @@
 # DIFNet
 
-# Introduction
+## Introduction
 
 This is a PyTorch implementation of [Unsupervised Deep Image Fusion With Structure Tensor Representations](https://ieeexplore.ieee.org/document/8962327) with multi-GPU training supports.
 
-# Prerequisites
+## Prerequisites
 
 * PyTorch
 * tqdm
 * pillow
 
-# How to train
+## How to train
 
 * For training, you should get image pairs such as RGB-thermal, RGB-NIR or multi-focus pairs. And they must be registered each other.
 * Set your training phase at args.py
@@ -50,7 +50,7 @@ resume = None # Train from scratch
 python train.py
 ```
 
-# How to test
+## How to test
 
 * Please add the path of datasets for test.
 ```
