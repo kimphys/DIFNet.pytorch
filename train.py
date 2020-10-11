@@ -164,11 +164,13 @@ def main_worker(gpu, ngpus_per_node, args):
             
             loss.backward()
             optimizer.step()
-            scheduler.step()
+            
 
             idx += 1
         if torch.cuda.current_device() == 0:
             print("GPU{} Total_loss:".format(torch.cuda.current_device()), loss)
+
+        scheduler.step()
 
         if (ep + 1) % args.save_per_epoch == 0:
             # Save model
