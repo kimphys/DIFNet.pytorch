@@ -51,7 +51,7 @@ class ConvLayer(nn.Module):
         return x
 
 class DIFNet(nn.Module):
-    def __init__(self, in_channels=2,out_channels=3):
+    def __init__(self, in_channels=4,out_channels=3):
         super(DIFNet, self).__init__()
 
         self.C = in_channels

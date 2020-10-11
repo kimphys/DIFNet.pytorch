@@ -12,7 +12,8 @@ class args():
     dataset2 = "./train_lwir.txt"
     HEIGHT = 256
     WIDTH = 256
-    lr = 1e-4 #"learning rate, default is 0.001"	
+    lr = 1e-4 # "Initial learning rate, default is 0.0001"
+    lr_step = 10 # Learning rate is halved in 10 epochs 	
     resume = "./models/sample.pt" # if you have, please put the path of the model like "./models/densefuse_gray.model"
     # resume = None
     save_model_dir = "./models/" #"path to folder where trained model with checkpoints will be saved."
