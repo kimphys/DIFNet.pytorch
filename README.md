@@ -16,7 +16,7 @@ This is a PyTorch implementation of [Unsupervised Deep Image Fusion With Structu
 * Set your training phase at args.py
 * For multi-GPU training, you should set parameters as follows,
 ```
-### args_fusion.py
+### args.py
 # For GPU training
 world_size = -1
 rank = -1
