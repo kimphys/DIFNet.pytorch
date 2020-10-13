@@ -70,7 +70,7 @@ test_lwir = "./test_lwir.txt"
 
 ## To-Do list
 * [x] Add evaluation code
-* [ ] Upload pretrained models and samples
+* [x] Upload pretrained models and samples
 * [ ] Update benchmark
 
 ## Reference
