@@ -7,8 +7,8 @@ This is a PyTorch implementation of [Unsupervised Deep Image Fusion With Structu
 <p align="center"><img src="./network.png" width="640"\></p>
 
 | ![samples](samples/visible.png) | ![samples](samples/lwir.png) | ![samples](samples/fuse.png) |
-| Visible image | Infrared image | Fused image |
 |---|---|---|
+| Visible image | Infrared image | Fused image |
 
 ## Prerequisites
 
