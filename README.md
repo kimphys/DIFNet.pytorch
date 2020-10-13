@@ -4,6 +4,12 @@
 
 This is a PyTorch implementation of [Unsupervised Deep Image Fusion With Structure Tensor Representations](https://ieeexplore.ieee.org/document/8962327) with multi-GPU training supports.
 
+<p align="center"><img src="./network.png" width="640"\></p>
+
+| ![samples](samples/visible.png) | ![samples](samples/lwir.png) | ![samples](samples/fuse.png) |
+| Visible image | Infrared image | Fused image |
+|---|---|---|
+
 ## Prerequisites
 
 * PyTorch

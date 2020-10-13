@@ -7,7 +7,7 @@ class args():
     # training args
     epochs = 100 # "number of training epochs, default is 2"
     save_per_epoch = 1
-    batch_size = 1 # "batch size for training, default is 4"
+    batch_size = 16 # "batch size for training/testing, default is 4"
     dataset1 = "./train_visible.txt"
     dataset2 = "./train_lwir.txt"
     HEIGHT = 256

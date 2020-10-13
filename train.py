@@ -49,7 +49,7 @@ class MyTrainDataset(Dataset):
         img1 = Image.open(self.img1_list[index]).convert('RGB')
         img2 = Image.open(self.img2_list[index]).convert('RGB')     
         
-        custom_transform_rgb = transforms.Compose([# transforms.Grayscale(num_output_channels=1),
+        custom_transform_rgb = transforms.Compose([transforms.Grayscale(num_output_channels=1),
                                                    transforms.Resize((args.HEIGHT,args.WIDTH)),
                                                    transforms.ToTensor()])
         custom_transform_gray = transforms.Compose([transforms.Grayscale(num_output_channels=1),
